@@ -11021,6 +11021,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headTransform: {fileID: 324799775}
+  body: {fileID: 1071100260}
+  speed: 1
+  newPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1608936616
 GameObject:
   m_ObjectHideFlags: 0

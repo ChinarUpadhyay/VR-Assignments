@@ -36,7 +36,7 @@ public class ParentSwitcher : MonoBehaviour
 	    if(currentParent == parents.Count)
 		currentParent = 0;
 	    SetParent(currentParent);
-	    // SetParent((currentParent) % parents.Count);
+	    
     }
 
     void SetParent(int idx)
@@ -48,5 +48,9 @@ public class ParentSwitcher : MonoBehaviour
 	}
         
         // what is the effect of worldPositionStays?
+        // If true, the parent-relative position, scale and rotation are modified such that the object keeps 
+        //the same world space position, rotation and scale as before.i.e
+        //the parent will move to set the position and if false then the child object will move to match parent's relative postion
+        
  
 }

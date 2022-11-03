@@ -49,17 +49,15 @@ public class MoveAroundTarget : MonoBehaviour
 
     Vector3 CalculatePositionUpdate()
     {
-        //transform.Translate(directionToTarget * Time.deltaTime);
-        return transform.position;
         
         // TODO: Exercise 1.5
+		return transform.position;
     }
 
     Quaternion CalculateRotationUpdate(Vector3 newPosition)
     {
-       //transform.RotateAround(newPosition, Vector3.up, degreesPerSecond * Time.deltaTime);
-        return transform.rotation;
 
         // TODO: Exercise 1.5
+		return transform.rotation;
     }
 }

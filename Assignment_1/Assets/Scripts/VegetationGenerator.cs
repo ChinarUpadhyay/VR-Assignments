@@ -5,6 +5,7 @@ using System;
 
 public class VegetationGenerator : MonoBehaviour
 {
+   // List creation method in the inspector.Use this for vegetation generator functions
    // [Serializable]
     // public struct Vegetation
     // {
